@@ -14,14 +14,14 @@
 ### Navigate to the Frontend Directory
 
 Switch to the frontend folder:
-      ```bash
+      
          cd image-to-pdf-frontend
 
 ### Install Frontend Dependencies
 
 Run the following command:
 
-    ```bash
+    
     npm install
 
 ### Start the Frontend Application
