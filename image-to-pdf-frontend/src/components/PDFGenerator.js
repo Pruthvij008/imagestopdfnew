@@ -93,7 +93,11 @@ const PDFGenerator = ({ images }) => {
 
     setLoading(true); // Show loading state
     try {
-      const response = await fetch("http://localhost:3000/api/images/upload", {
+      const response = await fetch(
+        // "http://localhost:3000/api/images/upload",
+        // " https://imagestopdfnew.onrender.com/api/images/generate-pdf",
+        "https://imagestopdfnew.onrender.com/api/images/upload",
+        {
         method: "POST",
         body: formData,
       });
@@ -101,7 +105,8 @@ const PDFGenerator = ({ images }) => {
       const data = await response.json();
       if (response.ok) {
         const pdfResponse = await fetch(
-          "http://localhost:3000/api/images/generate-pdf",
+          " https://imagestopdfnew.onrender.com/api/images/generate-pdf",
+          // "http://localhost:3000/api/images/generate-pdf",
           {
             method: "POST",
             headers: {
