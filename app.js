@@ -47,7 +47,7 @@ const app = express();
 
 app.use(
   cors({
-    origin:"https://imagestopdfnew-1.onrender.com/",
+    origin:"https://imagestopdfnew-1.onrender.com",
   })
 );
 
