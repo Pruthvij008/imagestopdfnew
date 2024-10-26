@@ -7,7 +7,7 @@ const cors = require("cors");
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://imagestopdfnew-1.onrender.com"], // Allow both localhost and your production domain
+    origin: ["http://localhost:5173", "https://imagestopdfnew-1.onrender.com","https://allimageservicesa.onrender.com"], // Allow both localhost and your production domain
     methods: ["GET", "POST", "OPTIONS"], // Allow specific methods
   })
 );
