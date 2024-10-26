@@ -15,7 +15,7 @@ const PDFGenerator = ({ images }) => {
     try {
       const response = await fetch(
         // "http://localhost:3000/api/images/upload",
-        "https://imagestopdfnew.onrender.com/api/images/upload",
+        "https://allimageservices.onrender.com/api/images/upload",
         {
           method: "POST",
           body: formData,
@@ -26,7 +26,7 @@ const PDFGenerator = ({ images }) => {
       if (response.ok) {
         const pdfResponse = await fetch(
           // "http://localhost:3000/api/images/generate-pdf",
-          " https://imagestopdfnew.onrender.com/api/images/generate-pdf",
+          "https://allimageservices.onrender.com/api/images/generate-pdf",
           {
             method: "POST",
             headers: {
