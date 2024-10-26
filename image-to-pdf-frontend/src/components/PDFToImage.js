@@ -41,7 +41,7 @@ const PDFToImage = () => {
 
       // Call the backend API to merge PDFs
       const response = await axios.post(
-        "https://imagestopdfnew.onrender.com/api/pdf/merge-pdfs", // Replace with your backend URL
+        "https://allimageservices.onrender.com/api/pdf/merge-pdfs", // Replace with your backend URL
         formData,
         {
           headers: {
