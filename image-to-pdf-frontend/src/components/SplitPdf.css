@@ -1,0 +1,87 @@
+/* SplitPdf.css */
+.pdf-splitter {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.pdf-splitter h1 {
+  text-align: center;
+  color: #333; /* Darker text color for contrast */
+}
+
+.pdf-splitter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+.pdf-splitter label {
+  margin: 10px 0 5px;
+  font-weight: bold; /* Bold labels for better readability */
+  color: #555; /* Slightly darker label color */
+}
+
+.upload-container {
+  position: relative; /* Positioning for input overlay */
+}
+
+.upload-label {
+  display: block; /* Block display for the label */
+  background-color: #007bff; /* Button-like background */
+  color: white; /* White text color */
+  padding: 12px; /* Padding for better appearance */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center text */
+  cursor: pointer; /* Pointer cursor for clickable label */
+  width: 100%; /* Full width for label */
+  max-width: 400px; /* Limit maximum width */
+  margin-bottom: 15px; /* Spacing below the label */
+}
+
+.upload-input {
+  display: none; /* Hide the default file input */
+}
+
+.pdf-splitter input[type="text"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Full width for inputs */
+  max-width: 400px; /* Limit maximum width */
+  margin-bottom: 15px; /* Spacing between inputs */
+}
+
+.pdf-splitter button {
+  padding: 12px 20px; /* Increased padding for better appearance */
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  font-size: 16px; /* Larger text for readability */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Transition for hover effect */
+}
+
+.pdf-splitter button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly grow on hover */
+}
+
+.pdf-splitter button:disabled {
+  background-color: #ccc; /* Grey out when disabled */
+  cursor: not-allowed; /* Change cursor to indicate disabled */
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.pdf-preview {
+  margin-top: 20px;
+}

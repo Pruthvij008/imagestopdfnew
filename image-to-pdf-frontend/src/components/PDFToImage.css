@@ -1,0 +1,251 @@
+.merge-pdf-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.merge-pdf-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.pdf-upload {
+  margin-bottom: 20px;
+}
+
+.upload-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.file-input {
+  display: none;
+}
+
+.pdf-preview {
+  margin-top: 10px;
+}
+
+.embed-preview {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #ddd;
+}
+
+.merge-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.merge-button:disabled {
+  background-color: #cccccc;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+.merge-pdf-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.pdf-upload-container {
+  display: flex; /* Add this to enable horizontal alignment */
+  justify-content: space-between; /* Adjust space between elements */
+  margin-bottom: 20px;
+}
+
+.pdf-upload {
+  flex: 1; /* Allows the PDF upload divs to grow equally */
+  margin-right: 10px; /* Adds space between the two uploads */
+}
+
+.pdf-upload:last-child {
+  margin-right: 0; /* Remove margin for the last child */
+}
+.count-label {
+  font-size: 1.2rem; /* Font size for the label */
+  margin-bottom: 0.5rem; /* Space below the label */
+  display: block; /* Ensures label appears above the input */
+  color: #333; /* Dark text color for readability */
+}
+
+.count-input {
+  width: 100%; /* Full width for the input */
+  padding: 0.5rem; /* Space inside the input */
+  font-size: 1rem; /* Font size for input text */
+  border: 1px solid #ccc; /* Light border around the input */
+  border-radius: 4px; /* Rounded corners for the input */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.count-input:focus {
+  border-color: #007bff; /* Border color when focused */
+  outline: none; /* Remove default outline */
+}
+
+.pdf-upload-container {
+  margin: 1rem 0; /* Space around the upload container */
+}
+
+.pdf-upload {
+  margin-bottom: 1rem; /* Space below each PDF upload section */
+}
+
+.upload-label {
+  font-weight: bold; /* Bold font for the label */
+  margin-bottom: 0.5rem; /* Space below the label */
+  display: block; /* Ensures label appears above the input */
+  color: #333; /* Dark text color for readability */
+}
+
+.file-input {
+  width: 100%; /* Full width for the file input */
+  padding: 0.5rem; /* Space inside the file input */
+  border: 1px solid #ccc; /* Light border around the file input */
+  border-radius: 4px; /* Rounded corners for the file input */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.file-input:hover {
+  border-color: #007bff; /* Border color on hover */
+}
+
+.pdf-preview {
+  margin-top: 0.5rem; /* Space above the PDF preview */
+}
+
+.embed-preview {
+  width: 100%; /* Full width for the embed element */
+  height: 400px; /* Fixed height for the PDF preview */
+  border: none; /* Remove default border */
+}
+.merge-pdf-container {
+  max-width: 600px; /* Maximum width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding around the container */
+  border: 1px solid #ccc; /* Light border for the container */
+  border-radius: 8px; /* Rounded corners for the container */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.merge-pdf-form {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.count-label {
+  font-size: 1.2rem; /* Font size for the label */
+  margin-bottom: 0.5rem; /* Space below the label */
+  color: #333; /* Dark text color for readability */
+}
+
+.count-input {
+  width: 100%; /* Full width for the input */
+  padding: 0.5rem; /* Space inside the input */
+  font-size: 1rem; /* Font size for input text */
+  border: 1px solid #ccc; /* Light border around the input */
+  border-radius: 4px; /* Rounded corners for the input */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.count-input:focus {
+  border-color: #007bff; /* Border color when focused */
+  outline: none; /* Remove default outline */
+}
+
+.pdf-upload-container {
+  display: flex; /* Enable horizontal alignment */
+  flex-direction: column; /* Stack items vertically */
+  margin-bottom: 20px; /* Space below the upload container */
+}
+
+.pdf-upload {
+  margin-bottom: 20px; /* Space below each PDF upload section */
+}
+
+.pdf-upload-inner {
+  display: flex; /* Flex for inner elements */
+  flex-direction: column; /* Stack label and input vertically */
+}
+
+.upload-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Primary color for the button */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor */
+  border-radius: 4px; /* Rounded corners */
+  text-align: center; /* Center text */
+  width: fit-content; /* Fit width to content */
+  margin-bottom: 10px; /* Space below the label */
+}
+
+.file-input {
+  display: none; /* Hide the actual file input */
+}
+
+.pdf-preview {
+  margin-top: 10px; /* Space above the PDF preview */
+}
+
+.embed-preview {
+  width: 100%; /* Full width for the embed element */
+  height: 500px; /* Fixed height for the PDF preview */
+  border: 1px solid #ddd; /* Border around the preview */
+}
+
+.merge-button {
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 16px; /* Font size for the button */
+  background-color: #28a745; /* Success color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.merge-button:disabled {
+  background-color: #cccccc; /* Disabled button color */
+}
+
+.error-message {
+  color: red; /* Red color for error messages */
+  margin-top: 10px; /* Space above the error message */
+}
+
+/* Styles for responsive design */
+@media (min-width: 600px) {
+  .pdf-upload-container {
+    flex-direction: row; /* Row layout on larger screens */
+    flex-wrap: wrap; /* Allow wrapping */
+  }
+
+  .pdf-upload {
+    flex: 1; /* Allow the upload divs to grow equally */
+    margin-right: 10px; /* Space to the right of each upload */
+  }
+
+  .pdf-upload:last-child {
+    margin-right: 0; /* Remove margin for the last child */
+  }
+}
