@@ -32,7 +32,7 @@ const PDFSplitter = () => {
 
     try {
       const response = await axios.post(
-        "https://imagestopdfnew.onrender.com/api/pdf/split-pdf",
+        "https://allimageservices.onrender.com/api/pdf/split-pdf",
         formData,
         {
           responseType: "blob", // Expect binary response for the ZIP file
