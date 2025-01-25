@@ -32,8 +32,7 @@ Finally, start the frontend application:
 npm start
 
 
-
-
+```
 Live Website
 Access the application at: https://allimageservicesa.onrender.com/
 Developer Notes
