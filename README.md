@@ -30,3 +30,16 @@ Finally, start the frontend application:
 
 ```bash
 npm start
+
+
+
+
+Live Website
+Access the application at: https://allimageservicesa.onrender.com/
+Developer Notes
+
+Fork and customize the project
+Experiment with new features
+Extend functionality as needed
+
+Happy coding! 🚀
